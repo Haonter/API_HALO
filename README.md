@@ -1,5 +1,4 @@
 # Halo API
-
 Una API REST para obtener información sobre el universo de Halo, incluyendo personajes, vehículos y armas.
 
 ## 🚀 Características
@@ -25,20 +24,29 @@ Una API REST para obtener información sobre el universo de Halo, incluyendo per
 
 ### Personajes
 ```
-GET /api/personajes
-GET /api/personajes/id/:id
+GET /personajes
+GET /personajes/id/:id    -- Proximo Stream
+POST /personajes
+PATCH /personajes/:id     -- Proximo Stream
+DELETE /personajes/:id    -- Proximo Stream
 ```
 
 ### Vehículos  
 ```
-GET /api/vehiculos
-GET /api/vehiculos/id/:id
+GET /vehiculos          -- Proximo Stream
+GET /vehiculos/id/:id   -- Proximo Stream
+POST /vehiculos         -- Proximo Stream
+PATCH /vehiculos/:id    -- Proximo Stream
+DELETE /vehiculos/:id   -- Proximo Stream
 ```
 
 ### Armas
 ```
-GET /api/armas
-GET /api/armas/id/:id
+GET /armas             -- Proximo Stream
+GET /armas/id/:id      -- Proximo Stream
+POST /armas            -- Proximo Stream
+PATCH /armas/:id       -- Proximo Stream
+DELETE /armas/:id      -- Proximo Stream
 ```
 
 ## 🚀 Instalación
@@ -58,9 +66,10 @@ npm start
 
 **Diego Rodriguez**
 
-- 🌐 Web: [diegorodriguez.dev](https://diegorodriguez.dev)
+- 💻 GitHub: [@haonter](https://github.com/haonter)
 - 📺 Twitch: [@didacusdev](https://twitch.tv/didacusdev)
 - 📸 Instagram: [@didacusdev](https://instagram.com/didacusdev)
+- 🌐 Web: [diegorodriguez.dev](https://diegorodriguez.dev)
 
 ## 📄 Licencia
 
